@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cc512e5-a46f-41c6-8229-72c844d8adf0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/hoffmann/fabricante/client/PessoaClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/hoffmann/fabricante/domain/enums/TipoDeUsuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/hoffmann/fabricante/domain/response/PessoaResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/hoffmann/fabricante/FabricanteApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/hoffmann/fabricante/FabricanteApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/hoffmann/fabricante/client/PessoaClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/hoffmann/fabricante/client/PessoaClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/hoffmann/fabricante/controller/FabricanteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/hoffmann/fabricante/controller/FabricanteController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,6 +59,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="304" y="288" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1593178430045" />
+    <state x="471" y="66" key="RollbackChangesDialog" timestamp="1593179915805">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="471" y="66" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1593179915805" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1593177978347">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

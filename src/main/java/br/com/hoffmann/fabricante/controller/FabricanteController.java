@@ -1,6 +1,7 @@
 package br.com.hoffmann.fabricante.controller;
 
 
+import br.com.hoffmann.fabricante.client.PessoaClient;
 import br.com.hoffmann.fabricante.domain.request.CreateFabricanteRequest;
 import br.com.hoffmann.fabricante.domain.request.UpdateFabricanteRequest;
 import br.com.hoffmann.fabricante.domain.response.*;
@@ -30,6 +31,9 @@ public class FabricanteController {
 
     @Autowired
     FabricanteService fabricanteService;
+
+    @Autowired
+    PessoaClient pessoaClient;
 
     @ApiOperation(value = "EndPoint para cadastro de Fabricantes")
     @ApiResponses(value = {
@@ -88,8 +92,8 @@ public class FabricanteController {
         return ResponseEntity.ok().body(response);
     }
 
-    /*@RequestMapping(value = "/buscaPessoa/{id}", method = RequestMethod.GET)
+    @RequestMapping(value = "/buscaPessoa/{id}", method = RequestMethod.GET)
     public ResponseEntity<PessoaResponse> buscarPessoa(@PathVariable(value = "id") Long id){
-
-    }*/
+        return ResponseEntity.ok().body(pessoaClient.getPessoa(id));
+    }
 }
