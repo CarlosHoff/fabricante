@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cc512e5-a46f-41c6-8229-72c844d8adf0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/common.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/common.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/common1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/hoffmann/fabricante/FabricanteApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/hoffmann/fabricante/FabricanteApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/hoffmann/fabricante/client/PessoaClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/hoffmann/fabricante/client/PessoaClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/hoffmann/fabricante/controller/FabricanteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/hoffmann/fabricante/controller/FabricanteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,14 +36,34 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="br.com.hoffmann.fabricante.enums" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="FabricanteApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.hoffmann.fabricante.FabricanteApplication" />
+      <module name="fabricante" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.hoffmann.fabricante.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.FabricanteApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -59,13 +83,33 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="304" y="288" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1593178430045" />
+    <state x="389" y="105" key="FileChooserDialogImpl" timestamp="1593191399193">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="389" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1593191399193" />
+    <state width="1323" height="320" key="GridCell.Tab.0.bottom" timestamp="1593193647499">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="320" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593193647499" />
+    <state width="1323" height="320" key="GridCell.Tab.0.center" timestamp="1593193647499">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="320" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593193647499" />
+    <state width="1323" height="320" key="GridCell.Tab.0.left" timestamp="1593193647498">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="320" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593193647498" />
+    <state width="1323" height="320" key="GridCell.Tab.0.right" timestamp="1593193647499">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="320" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593193647499" />
     <state x="471" y="66" key="RollbackChangesDialog" timestamp="1593179915805">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="471" y="66" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1593179915805" />
-    <state x="163" y="0" key="SettingsEditor" timestamp="1593177978347">
+    <state x="163" y="0" key="SettingsEditor" timestamp="1593191409671">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1593177978347" />
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1593191409671" />
   </component>
 </project>
