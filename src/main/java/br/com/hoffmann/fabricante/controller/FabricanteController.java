@@ -1,16 +1,19 @@
 package br.com.hoffmann.fabricante.controller;
 
 
-import br.com.hoffmann.fabricante.client.PessoaClient;
 import br.com.hoffmann.fabricante.domain.request.CreateFabricanteRequest;
 import br.com.hoffmann.fabricante.domain.request.UpdateFabricanteRequest;
-import br.com.hoffmann.fabricante.domain.response.*;
+import br.com.hoffmann.fabricante.domain.response.CreateFabricanteResponse;
+import br.com.hoffmann.fabricante.domain.response.DeleteFabricanteResponse;
+import br.com.hoffmann.fabricante.domain.response.FindFabricanteResponse;
+import br.com.hoffmann.fabricante.domain.response.UpdateFabricanteResponse;
 import br.com.hoffmann.fabricante.service.FabricanteService;
+import com.example.demo.client.PessoaClient;
+import com.example.demo.domain.response.PessoaResponse;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponse;
 import io.swagger.annotations.ApiResponses;
-import io.swagger.models.Response;
 import javassist.NotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -18,6 +21,7 @@ import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
+
 import javax.validation.Valid;
 import javax.validation.constraints.NotNull;
 import java.util.List;
