@@ -15,7 +15,7 @@
     <artifactId>fornecedor</artifactId>
     <version>1.0-SNAPSHOT</version>
     <name>fornecedor</name>
-    <description>Micro-serviço para cadastro de Fabricantes</description>
+    <description>Micro-serviço para cadastro de Fornecedores</description>
 
     <properties>
         <java.version>1.8</java.version>
@@ -35,12 +35,6 @@
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-devtools</artifactId>
-            <scope>runtime</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
@@ -50,17 +44,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
-
-        <!-- Spring Security -->
-        <!--		<dependency>-->
-        <!--			<groupId>org.springframework.boot</groupId>-->
-        <!--			<artifactId>spring-boot-starter-security</artifactId>-->
-        <!--		</dependency>-->
-
-        <!--		<dependency>-->
-        <!--			<groupId>org.springframework.security</groupId>-->
-        <!--			<artifactId>spring-security-test</artifactId>-->
-        <!--		</dependency>-->
 
         <!--  Hibernate validator -->
         <dependency>
@@ -85,13 +68,6 @@
             <version>3.6</version>
         </dependency>
 
-        <!--		&lt;!&ndash; JWT Token &ndash;&gt;-->
-        <!--		<dependency>-->
-        <!--			<groupId>io.jsonwebtoken</groupId>-->
-        <!--			<artifactId>jjwt</artifactId>-->
-        <!--			<version>0.7.0</version>-->
-        <!--		</dependency>-->
-
         <!--		&lt;!&ndash; Swagger e Swagger UI &ndash;&gt;-->
         <dependency>
             <groupId>io.springfox</groupId>
@@ -112,26 +88,13 @@
             <version>2.6.1</version>
         </dependency>
 
-        <!-- EhCache -->
-        <dependency>
-            <groupId>net.sf.ehcache</groupId>
-            <artifactId>ehcache</artifactId>
-        </dependency>
-
         <!-- Spring caching framework inside this -->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
         </dependency>
 
-        <!-- Support for Ehcache and others -->
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-context-support</artifactId>
-        </dependency>
     </dependencies>
-
-
 
     <build>
         <plugins>
