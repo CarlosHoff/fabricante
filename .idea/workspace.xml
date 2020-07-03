@@ -2,49 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cc512e5-a46f-41c6-8229-72c844d8adf0" name="Default Changelist" comment="Melhorias no código">
-      <change afterPath="$PROJECT_DIR$/.idea/fornecedor.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/hoffmann/fornecedor/domain/request/FornecedorRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/hoffmann/fornecedor/domain/response/FornecedorResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/hoffmann/fornecedor/entity/auxiliar/ServiceAuxiliar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/common.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/demo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/hoffmann/fabricante/FabricanteApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/hoffmann/fornecedor/FornecedorApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/hoffmann/fabricante/config/FabricanteConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/hoffmann/fornecedor/config/FornecedorConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/hoffmann/fabricante/controller/FabricanteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/hoffmann/fornecedor/controller/FornecedorController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/hoffmann/fabricante/domain/enums/TipoDeUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/hoffmann/fornecedor/domain/enums/TipoDeUsuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/hoffmann/fabricante/domain/request/CreateFabricanteRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/hoffmann/fabricante/domain/request/UpdateFabricanteRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/hoffmann/fabricante/domain/response/CreateFabricanteResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/hoffmann/fabricante/domain/response/DeleteFabricanteResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/hoffmann/fabricante/domain/response/FindFabricanteResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/hoffmann/fabricante/domain/response/PessoaResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/hoffmann/fabricante/domain/response/UpdateFabricanteResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/hoffmann/fabricante/entity/Fabricante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/hoffmann/fornecedor/entity/Fornecedor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/hoffmann/fabricante/repository/FabricanteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/hoffmann/fornecedor/repository/FornecedorRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/hoffmann/fabricante/service/FabricanteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/hoffmann/fornecedor/service/FornecedorService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/hoffmann/fabricante/FabricanteApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/hoffmann/fornecedor/FornecedorApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/fabricante.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/hoffmann/fabricante/FabricanteApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/hoffmann/fabricante/config/FabricanteConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/hoffmann/fabricante/controller/FabricanteController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/hoffmann/fabricante/domain/enums/TipoDeUsuario.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/hoffmann/fabricante/domain/request/CreateFabricanteRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/hoffmann/fabricante/domain/request/UpdateFabricanteRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/hoffmann/fabricante/domain/response/CreateFabricanteResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/hoffmann/fabricante/domain/response/DeleteFabricanteResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/hoffmann/fabricante/domain/response/FindFabricanteResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/hoffmann/fabricante/domain/response/PessoaResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/hoffmann/fabricante/domain/response/UpdateFabricanteResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/hoffmann/fabricante/entity/Fabricante.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/hoffmann/fabricante/repository/FabricanteRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/hoffmann/fabricante/service/FabricanteService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/hoffmann/fabricante/FabricanteApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/hoffmann/fornecedor/entity/auxiliar/ServiceAuxiliar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/hoffmann/fornecedor/entity/auxiliar/ServiceAuxiliar.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

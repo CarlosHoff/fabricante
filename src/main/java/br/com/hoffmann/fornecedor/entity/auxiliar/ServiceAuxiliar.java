@@ -14,6 +14,11 @@ import static java.lang.String.format;
 @Component
 public class ServiceAuxiliar {
 
+    private final String CNPJ_EXISTENTE = "CNPJ [%s] já existe na nossa base de dados";
+    private final String TELEFONE_EXISTENTE = "TELEFONE [%s] já existe na nossa base de dados";
+    private final String CELULAR_EXISTENTE = "CELULAR [%s] já existe na nossa base de dados";
+    private final String EMAIL_EXISTENTE = "EMAIL [%s] já existe na nossa base de dados";
+
     @Autowired
     FornecedorRepository fornecedorRepository;
 
@@ -61,37 +66,53 @@ public class ServiceAuxiliar {
 
     public void validaFornecedor(FornecedorRequest request) {
 
-        Optional<Fornecedor> validaCnpj = fornecedorRepository.findFornecedorByCnpj(request.getCnpj());
-        Optional<Fornecedor> validaTelefone = fornecedorRepository.findFornecedorByTelefone(request.getTelefone());
-        Optional<Fornecedor> validaCelular = fornecedorRepository.findFornecedorByCelular(request.getCelular());
-        Optional<Fornecedor> validaEmail = fornecedorRepository.findFornecedorByEmail(request.getEmail());
+        Optional<Fornecedor> validaCnpj = validaCnpj(request);
+        Optional<Fornecedor> validaTelefone = validaTelefone(request);
+        Optional<Fornecedor> validaCelular = validaCelular(request);
+        Optional<Fornecedor> validaEmail = validaEmail(request);
 
         if (validaCnpj.isPresent()) {
-            throw new NonUniqueResultException(format("CNPJ [%s] já existe na nossa base de dados", request.getCnpj()));
+            throw new NonUniqueResultException(format(CNPJ_EXISTENTE, request.getCnpj()));
         } else if (validaTelefone.isPresent()) {
-            throw new NonUniqueResultException(format("TELEFONE [%s] já existe na nossa base de dados", request.getTelefone()));
+            throw new NonUniqueResultException(format(TELEFONE_EXISTENTE, request.getTelefone()));
         } else if (validaCelular.isPresent()) {
-            throw new NonUniqueResultException(format("CELULAR [%s] já existe na nossa base de dados", request.getCelular()));
+            throw new NonUniqueResultException(format(CELULAR_EXISTENTE, request.getCelular()));
         } else if (validaEmail.isPresent()) {
-            throw new NonUniqueResultException(format("EMAIL [%s] já existe na nossa base de dados", request.getEmail()));
+            throw new NonUniqueResultException(format(EMAIL_EXISTENTE, request.getEmail()));
         }
     }
 
     public void validaUpdate(FornecedorRequest request, Long id) {
 
-        Optional<Fornecedor> validaCnpj = fornecedorRepository.findFornecedorByCnpj(request.getCnpj());
-        Optional<Fornecedor> validaTelefone = fornecedorRepository.findFornecedorByTelefone(request.getTelefone());
-        Optional<Fornecedor> validaCelular = fornecedorRepository.findFornecedorByCelular(request.getCelular());
-        Optional<Fornecedor> validaEmail = fornecedorRepository.findFornecedorByEmail(request.getEmail());
+        Optional<Fornecedor> validaCnpj = validaCnpj(request);
+        Optional<Fornecedor> validaTelefone = validaTelefone(request);
+        Optional<Fornecedor> validaCelular = validaCelular(request);
+        Optional<Fornecedor> validaEmail = validaEmail(request);
 
         if (validaCnpj.isPresent() && !validaCnpj.get().getFornecedorID().equals(id)) {
-            throw new NonUniqueResultException(format("CNPJ [%s] já existe na nossa base de dados", request.getCnpj()));
+            throw new NonUniqueResultException(format(CNPJ_EXISTENTE, request.getCnpj()));
         } else if (validaTelefone.isPresent() && !validaTelefone.get().getFornecedorID().equals(id)) {
-            throw new NonUniqueResultException(format("TELEFONE [%s] já existe na nossa base de dados", request.getTelefone()));
+            throw new NonUniqueResultException(format(TELEFONE_EXISTENTE, request.getTelefone()));
         } else if (validaCelular.isPresent() && !validaCelular.get().getFornecedorID().equals(id)) {
-            throw new NonUniqueResultException(format("CELULAR [%s] já existe na nossa base de dados", request.getCelular()));
+            throw new NonUniqueResultException(format(CELULAR_EXISTENTE, request.getCelular()));
         } else if (validaEmail.isPresent() && !validaEmail.get().getFornecedorID().equals(id)) {
-            throw new NonUniqueResultException(format("EMAIL [%s] já existe na nossa base de dados", request.getEmail()));
+            throw new NonUniqueResultException(format(EMAIL_EXISTENTE, request.getEmail()));
         }
+    }
+
+    private Optional<Fornecedor> validaCnpj(FornecedorRequest request){
+        return fornecedorRepository.findFornecedorByCnpj(request.getCnpj());
+    }
+
+    private Optional<Fornecedor> validaTelefone(FornecedorRequest request){
+        return fornecedorRepository.findFornecedorByTelefone(request.getTelefone());
+    }
+
+    private Optional<Fornecedor> validaCelular(FornecedorRequest request){
+        return fornecedorRepository.findFornecedorByCelular(request.getCelular());
+    }
+
+    private Optional<Fornecedor> validaEmail(FornecedorRequest request){
+        return fornecedorRepository.findFornecedorByEmail(request.getEmail());
     }
 }
