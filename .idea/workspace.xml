@@ -1,16 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9cc512e5-a46f-41c6-8229-72c844d8adf0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/demo.xml" afterDir="false" />
+    <list default="true" id="9cc512e5-a46f-41c6-8229-72c844d8adf0" name="Default Changelist" comment="Melhorias no código">
+      <change afterPath="$PROJECT_DIR$/.idea/fornecedor.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/hoffmann/fornecedor/domain/request/FornecedorRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/hoffmann/fornecedor/domain/response/FornecedorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/hoffmann/fornecedor/entity/auxiliar/ServiceAuxiliar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/common.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/demo.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/hoffmann/fabricante/FabricanteApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/hoffmann/fabricante/FabricanteApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/hoffmann/fabricante/client/PessoaClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/hoffmann/fabricante/controller/FabricanteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/hoffmann/fabricante/controller/FabricanteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/hoffmann/fabricante/FabricanteApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/hoffmann/fabricante/FabricanteApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/hoffmann/fabricante/client/PessoaClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/hoffmann/fabricante/controller/FabricanteController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/hoffmann/fabricante/controller/FabricanteController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/hoffmann/fabricante/FabricanteApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/hoffmann/fornecedor/FornecedorApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/hoffmann/fabricante/config/FabricanteConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/hoffmann/fornecedor/config/FornecedorConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/hoffmann/fabricante/controller/FabricanteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/hoffmann/fornecedor/controller/FornecedorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/hoffmann/fabricante/domain/enums/TipoDeUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/hoffmann/fornecedor/domain/enums/TipoDeUsuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/hoffmann/fabricante/domain/request/CreateFabricanteRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/hoffmann/fabricante/domain/request/UpdateFabricanteRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/hoffmann/fabricante/domain/response/CreateFabricanteResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/hoffmann/fabricante/domain/response/DeleteFabricanteResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/hoffmann/fabricante/domain/response/FindFabricanteResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/hoffmann/fabricante/domain/response/PessoaResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/hoffmann/fabricante/domain/response/UpdateFabricanteResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/hoffmann/fabricante/entity/Fabricante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/hoffmann/fornecedor/entity/Fornecedor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/hoffmann/fabricante/repository/FabricanteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/hoffmann/fornecedor/repository/FornecedorRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/hoffmann/fabricante/service/FabricanteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/hoffmann/fornecedor/service/FornecedorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/hoffmann/fabricante/FabricanteApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/hoffmann/fornecedor/FornecedorApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/fabricante.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/hoffmann/fabricante/FabricanteApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/hoffmann/fabricante/config/FabricanteConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/hoffmann/fabricante/controller/FabricanteController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/hoffmann/fabricante/domain/enums/TipoDeUsuario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/hoffmann/fabricante/domain/request/CreateFabricanteRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/hoffmann/fabricante/domain/request/UpdateFabricanteRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/hoffmann/fabricante/domain/response/CreateFabricanteResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/hoffmann/fabricante/domain/response/DeleteFabricanteResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/hoffmann/fabricante/domain/response/FindFabricanteResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/hoffmann/fabricante/domain/response/PessoaResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/hoffmann/fabricante/domain/response/UpdateFabricanteResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/hoffmann/fabricante/entity/Fabricante.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/hoffmann/fabricante/repository/FabricanteRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/hoffmann/fabricante/service/FabricanteService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/hoffmann/fabricante/FabricanteApplicationTests.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +54,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -37,7 +71,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/demo/demo/out/artifacts/demo_jar/demo.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cadastro-pessoa" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -48,12 +82,12 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="FabricanteApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.hoffmann.fabricante.FabricanteApplication" />
-      <module name="fabricante" />
+    <configuration name="FornecedorApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.hoffmann.fornecedor.FornecedorApplication" />
+      <module name="fornecedor" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.hoffmann.fabricante.*" />
+          <option name="PATTERN" value="br.com.hoffmann.fornecedor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -63,7 +97,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FabricanteApplication" />
+        <item itemvalue="Application.FornecedorApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -80,38 +114,97 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Melhorias no código" />
+    <option name="LAST_COMMIT_MESSAGE" value="Melhorias no código" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="304" y="288" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1593279935310">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="587" y="199" key="#Inspections" timestamp="1593696268981">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="587" y="199" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1593696268981" />
+    <state x="766" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1593733542328">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="766" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1593733542328" />
+    <state x="427" y="411" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1593653210762">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="304" y="288" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1593279935310" />
-    <state x="389" y="105" key="FileChooserDialogImpl" timestamp="1593280302819">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="427" y="411" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593653210762" />
+    <state x="684" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1593654199628">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="684" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593654199628" />
+    <state x="691" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593737172007">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="691" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593737172007" />
+    <state x="691" y="267" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1593659480961">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="691" y="267" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593659480961" />
+    <state x="477" y="89" key="CommitChangelistDialog2" timestamp="1593737573887">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="477" y="89" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1593737573887" />
+    <state x="547" y="150" key="FileChooserDialogImpl" timestamp="1593695375828">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="389" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1593280302819" />
-    <state width="1323" height="198" key="GridCell.Tab.0.bottom" timestamp="1593280584320">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="547" y="150" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1593695375827" />
+    <state width="1878" height="277" key="GridCell.Tab.0.bottom" timestamp="1593737353222">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="198" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593280584320" />
-    <state width="1323" height="198" key="GridCell.Tab.0.center" timestamp="1593280584319">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1878" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593737353222" />
+    <state width="1878" height="277" key="GridCell.Tab.0.center" timestamp="1593737353221">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="198" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593280584319" />
-    <state width="1323" height="198" key="GridCell.Tab.0.left" timestamp="1593280584319">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1878" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593737353221" />
+    <state width="1878" height="277" key="GridCell.Tab.0.left" timestamp="1593737353221">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="198" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593280584319" />
-    <state width="1323" height="198" key="GridCell.Tab.0.right" timestamp="1593280584319">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1878" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593737353221" />
+    <state width="1878" height="277" key="GridCell.Tab.0.right" timestamp="1593737353222">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="198" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593280584319" />
+    <state width="1878" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593737353222" />
+    <state width="1878" height="227" key="GridCell.Tab.1.bottom" timestamp="1593703036051">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="227" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593703036051" />
+    <state width="1878" height="227" key="GridCell.Tab.1.center" timestamp="1593703036051">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="227" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593703036051" />
+    <state width="1878" height="227" key="GridCell.Tab.1.left" timestamp="1593703036051">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="227" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593703036051" />
+    <state width="1878" height="227" key="GridCell.Tab.1.right" timestamp="1593703036051">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="227" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593703036051" />
     <state x="471" y="66" key="RollbackChangesDialog" timestamp="1593179915805">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="471" y="66" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1593179915805" />
-    <state x="163" y="0" key="SettingsEditor" timestamp="1593280314954">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="229" y="0" key="SettingsEditor" timestamp="1593653259239">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1593280314954" />
+    <state x="229" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1593653259239" />
+    <state x="670" y="252" width="579" height="534" key="find.popup" timestamp="1593654655691">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="670" y="252" width="579" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1593654655691" />
+    <state x="623" y="226" width="672" height="678" key="search.everywhere.popup" timestamp="1593654660256">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="226" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1593654660256" />
   </component>
 </project>
