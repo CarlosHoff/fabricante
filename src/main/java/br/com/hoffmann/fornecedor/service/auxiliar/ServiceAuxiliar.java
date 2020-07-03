@@ -1,4 +1,4 @@
-package br.com.hoffmann.fornecedor.entity.auxiliar;
+package br.com.hoffmann.fornecedor.service.auxiliar;
 
 import br.com.hoffmann.fornecedor.domain.request.FornecedorRequest;
 import br.com.hoffmann.fornecedor.entity.Fornecedor;

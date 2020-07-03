@@ -4,7 +4,7 @@ package br.com.hoffmann.fornecedor.service;
 import br.com.hoffmann.fornecedor.domain.request.FornecedorRequest;
 import br.com.hoffmann.fornecedor.domain.response.FornecedorResponse;
 import br.com.hoffmann.fornecedor.entity.Fornecedor;
-import br.com.hoffmann.fornecedor.entity.auxiliar.ServiceAuxiliar;
+import br.com.hoffmann.fornecedor.service.auxiliar.ServiceAuxiliar;
 import br.com.hoffmann.fornecedor.repository.FornecedorRepository;
 import javassist.NotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
